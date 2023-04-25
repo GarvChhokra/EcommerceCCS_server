@@ -13,7 +13,7 @@ const mysql = require("mysql2");
 // var db = mysql.createPool({
 //   host: "localhost",
 //   user: "root",
-//   password: "Garv@123",
+//   password: "",
 //   database: "trial",
 // });
 var db = mysql.createConnection({
