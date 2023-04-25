@@ -21,7 +21,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          node index.js
+          npm run serve
 
       - name: Deploy to Azure Web App
         uses: Azure/webapps-deploy@v2
