@@ -21,7 +21,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm install -g nodemon
           npm install pm2@latest -g
           pm2 start index.js
 
