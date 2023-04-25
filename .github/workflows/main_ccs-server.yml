@@ -21,8 +21,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm install pm2@latest -g
-          pm2 start index.js
+          nohup node index.js > /dev/null 2>&1 &
 
       - name: Deploy to Azure Web App
         uses: Azure/webapps-deploy@v2
