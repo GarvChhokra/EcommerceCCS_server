@@ -24,7 +24,7 @@ var db = mysql.createConnection({
   port: 3306,
 });
 
-const port = 3200 || process.env.PORT;
+const port = process.env.PORT || 3200;
 
 const url = "https://ccsdata.onrender.com/ccsData";
 
