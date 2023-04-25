@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ccs-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB92045FAD1A447183AC4C3A4F889400 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B5312AF3F4DD4139AC3EE82EA55567BE }}
           package: .
