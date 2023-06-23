@@ -263,7 +263,7 @@ app.post("/removeItems_cart", (req, res) => {
   });
 });
 
-app.get("/", (req, res) => res.send("Hello World!"));
+app.get("/", (req, res) => res.send("Welcome to CCS application server!"));
 
 //
 // Inserting into order table
